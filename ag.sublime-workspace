@@ -1,0 +1,327 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"swap",
+				"swaptb2	."
+			],
+			[
+				"auto_s",
+				"auto_swap(tb)	auto_swap-tb"
+			],
+			[
+				"lg_c",
+				"lg_circle	."
+			],
+			[
+				"graph",
+				"love.graphics.draw"
+			],
+			[
+				"lg_news",
+				"lg_newShape	."
+			],
+			[
+				"lg_new",
+				"lg_newShader	."
+			],
+			[
+				"lg_get",
+				"lg_getWidth	."
+			],
+			[
+				"fun",
+				"function	."
+			],
+			[
+				"format",
+				"string.format(formatstring,···)"
+			],
+			[
+				"setcanv",
+				"love.graphics.setCanvas"
+			],
+			[
+				"setCol",
+				"love.graphics.setColor"
+			],
+			[
+				"setBlendm",
+				"love.graphics.setBlendMode"
+			],
+			[
+				"push",
+				"love.graphics.push"
+			],
+			[
+				"rotate",
+				"love.graphics.rotate"
+			],
+			[
+				"files",
+				"love.filesystem.getUserDirectory"
+			],
+			[
+				"filesys",
+				"love.filesystem.getSaveDirectory"
+			],
+			[
+				"require",
+				"require(modname)"
+			],
+			[
+				"getheight",
+				"love.graphics.getHeight"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Love2D.sublime-build",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 728.0
+	},
+	"console":
+	{
+		"height": 287.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jeep/Love2d/game/ag/sc/xx/xx.lua",
+		"/Users/jeep/Love2d/game/ag/sc/xx/mx.lua",
+		"/Users/jeep/Github/LuaViewSDK-2016-04-15/LuaViewSDK.podspec",
+		"/Users/jeep/Love2d/game/ag/conf.lua",
+		"/Users/jeep/Love2d/game/ag/tst/tst_spt.lua",
+		"/Users/jeep/Love2d/game/ag/tst/main.lua",
+		"/Users/jeep/Love2d/game/ag/tst/mainO.lua",
+		"/Users/jeep/Love2d/game/ag/tst/mainA.lua",
+		"/Users/jeep/Love2d/game/ag/main.lua",
+		"/Users/jeep/Love2d/game/ag/lib/spt.lua",
+		"/Users/jeep/Love2d/game/ag/sc/game.lua",
+		"/Users/jeep/Love2d/game/ag/lib/shape.lua",
+		"/Users/jeep/Love2d/game/ag/sc/menu.lua",
+		"/Users/jeep/Love2d/game/ag/sc/test.lua",
+		"/Users/jeep/Love2d/game/ag/tst/tst_csv.lua",
+		"/Users/jeep/Love2d/game/ag/base/hump/timer.lua",
+		"/Users/jeep/Love2d/game/ag/base/spt.lua",
+		"/Users/jeep/Github/nuklear/demo/sdl/main.c",
+		"/Users/jeep/Love2d/game/ag/tst/tst_thread.lua",
+		"/Users/jeep/Love2d/game/ag/ak.lua",
+		"/Users/jeep/Love2d/game/ag/tst/tst_fs.lua",
+		"/Users/jeep/Love2d/game/ag/tst/tst_http.lua",
+		"/Users/jeep/Love2d/game/ag/tst/ak.lua",
+		"/Users/jeep/Love2d/game/ag/base/hump/signal.lua",
+		"/Users/jeep/Love2d/game/ag/base/hump/docs/timer.rst",
+		"/Users/jeep/Love2d/game/ag/exp/exp_csv.lua",
+		"/Users/jeep/Love2d/game/ag/exp/exp_spt.lua",
+		"/Users/jeep/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jeep/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jeep/Love2d/game/ag/exp/exp_cvs.lua",
+		"/Users/jeep/Library/Application Support/Sublime Text 2/Packages/User/Love2D.sublime-build",
+		"/C/Users/jeep/AppData/Roaming/Sublime Text 2/Packages/Lua Love/LuaLove.sublime-build",
+		"/Users/jeep/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jeep/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/love2d/game/ag/conf.lua",
+		"/D/love2d/game/ag/assets/ConfigShop.csv",
+		"/C/Users/jeep/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/jeep/AppData/Roaming/Sublime Text 2/Packages/User/LuaLove.sublime-settings",
+		"/C/Users/jeep/AppData/Roaming/Sublime Text 2/Packages/Default/exec.py",
+		"/D/love2d/game/ag/main.lua",
+		"/C/Users/jeep/AppData/Roaming/Sublime Text 2/Packages/User/love2d.sublime-build",
+		"/D/love2d/game/ag/mainA.lua",
+		"/C/Users/jeep/AppData/Roaming/Sublime Text 2/Packages/Lua Love/LuaLove.sublime-settings",
+		"/D/love2d/game/ag/base/hump/timer.lua",
+		"/D/love2d/game/ag/base/csv.lua",
+		"/D/love2d/game/ag/base/spt.lua"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mxpos",
+			"dumprst",
+			"search_all",
+			"			\n",
+			"no_swap_anim",
+			"sc_game",
+			"Timer",
+			"test",
+			"menu",
+			"love.graphics.",
+			"menu",
+			"\"base.",
+			"shader",
+			"ove",
+			"c",
+			"tst_thread has push",
+			"refreshOutput",
+			"client",
+			"function",
+			"draw",
+			"	t.version = \"0.10.0\"         -- The LOVE version this game was made for (string)\n",
+			"look",
+			"width",
+			"window",
+			"	t.version = \"0.10.0\"         -- The LOVE version this game was made for (string)\n",
+			"window",
+			"\n	",
+			"av",
+			"AsyncProcess",
+			"do",
+			"wait",
+			"do",
+			"{\n    \"selector\": \"source.lua\",\n    \"cmd\": [\"D:/love2d/love.exe\", \"${project_path:${file_path}}\"],\n    \"shell\": true,\n    \"file_regex\": \"^Error: (?:[^:]+: )?([^: ]+?):(\\\\d+):() ([^:]*)$\"\n}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"M",
+			"lg_",
+			"M",
+			"\"lib."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 391.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"time",
+				"base/hump/timer.lua"
+			],
+			[
+				"tst/",
+				"tst/tst_spt.lua"
+			],
+			[
+				"configshop",
+				"assets/ConfigShop.csv"
+			],
+			[
+				"tim",
+				"base/hump/timer.lua"
+			],
+			[
+				"csv",
+				"base/csv.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jeep/Love2d/game/ag.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 167.0,
+	"status_bar_visible": true
+}

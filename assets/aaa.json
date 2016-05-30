@@ -1,0 +1,75 @@
+{"frames": [
+
+{
+	"filename": "drink.png",
+	"frame": {"x":2,"y":2,"w":70,"h":167},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":5,"w":70,"h":167},
+	"sourceSize": {"w":79,"h":188},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hamburger.png",
+	"frame": {"x":74,"y":2,"w":96,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":96,"h":66},
+	"sourceSize": {"w":102,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hotdog.png",
+	"frame": {"x":2,"y":171,"w":117,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":117,"h":63},
+	"sourceSize": {"w":126,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "icecream.png",
+	"frame": {"x":121,"y":171,"w":120,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":120,"h":80},
+	"sourceSize": {"w":126,"h":88},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "icecream2.png",
+	"frame": {"x":2,"y":253,"w":42,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":6,"w":42,"h":92},
+	"sourceSize": {"w":47,"h":101},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "icecream3.png",
+	"frame": {"x":46,"y":253,"w":46,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":46,"h":105},
+	"sourceSize": {"w":50,"h":118},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "orange.png",
+	"frame": {"x":94,"y":253,"w":56,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":56,"h":55},
+	"sourceSize": {"w":58,"h":59},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "aaa.png",
+	"format": "RGBA4444",
+	"size": {"w":256,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f55a6a4e16acbf2fca95a3ae369551d9:325b43bae4c13787c447d8def0cba4d5:27ddf17f00af56a4ddb64f2c88011c1b$"
+}
+}
