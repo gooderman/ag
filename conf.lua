@@ -1,5 +1,5 @@
 cfg_gw = 8
-cfg_gh = 10
+cfg_gh = 12
 cfg_scale = 1/4
 function love.conf(t)
     io.stdout:setvbuf("no")
