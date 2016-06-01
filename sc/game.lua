@@ -3,6 +3,7 @@ local vangleTo = Vecl.angleTo
 local vadd = Vecl.add
 local vrotate = Vecl.rotate
 local MAX_P = 8
+local TURN_CHECK = true
 local DISS_AUTO = true
 local OUTLINE = true
 local PLOYGON = false
@@ -73,11 +74,12 @@ function M:gentb()
 	--local ws = {0,1, 0,1, 0,2, 0,2, 0,3, 0,3, 0,4,0,4, 0,5,0,5, 0,8,0,8}
 	local ws={}
 	if(MAX_P<=8) then
-		ws = {2, 2, 4, 4, 6, 6, 8,8}
+		--ws = {2, 2, 4, 4, 6, 6, 8,8}
+		ws = {2, 4, 6, 8, 10, 12, 14,16}
 	else	
-		for i=1,MAX_P/2 do
-			table.insert(ws,i)
-			table.insert(ws,i)
+		for i=1,MAX_P do
+			table.insert(ws,i*2)
+			--table.insert(ws,i+1)
 		end
 	end
 	--local pts= {10,100, 20,110, 50,130, 100,80, }
@@ -97,7 +99,8 @@ function M:gentb()
 	local nx,ny
 	local u,v
 	local r
---[[	
+	if(not TURN_CHECK) then
+	else
 	--near two point angle >90 witdh ==0
 	if(n>2) then
 		for i=s+1,n-1 do
@@ -114,7 +117,8 @@ function M:gentb()
 			end
 		end
 	end
---]]
+	end
+
 --------------------------------------------------
 	--tail points
 	local i=s
@@ -274,21 +278,12 @@ local colorn=#colortb
 local shader = love.graphics.newShader(pixelcode)
 --shader:send("alpha",0.0)
 --shader:send("idx",0)
---local spt=Spt("assets/pig.png");
+local spt=Spt("assets/pig.png");
 --shader:send("img",spt.texture)
 
 local IDX=0
-function M:draw(dt)
-	lg_setColor(255,0,255,255)
-	lg_rectangle("fill",0,0,lg_w,lg_h)
-	lg_setColor(255,255,255,255)
-	lg_rectangle("fill",0,0,lg_w,lg_h,12,12)
-	--spt:draw(lg_w/2,lg_h/2)
-	lg_setLineStyle("smooth")
-	lg_setLineJoin("none")
-	lg_setLineWidth(2)
-	local tb,mtb = self:gentb()
-	
+
+function M:drawt(tb,mtb)
 	if(tb) then
 		lg_setShader(shader)
 		for i,v in ipairs(mtb) do
@@ -311,7 +306,7 @@ function M:draw(dt)
 		end
 		lg_setShader()
 		if(OUTLINE) then
-			lg_setColor(255,0,0,255)
+			lg_setColor(255,255,255,128)
 			lg_polygon("line",unpack(tb))
 			lg_line(unpack(tb))
 		end
@@ -322,10 +317,38 @@ function M:draw(dt)
 				table.insert(ptss,v[1])
 				table.insert(ptss,v[2])
 			end
-			lg_setColor(255,255,255,255)
+			lg_setColor(255,255,255,128)
 			lg_line(unpack(ptss))
 		end
 	end
+end
+function M:draw(dt)
+	-- lg_setColor(255,0,255,255)
+	-- lg_rectangle("fill",0,0,lg_w,lg_h)
+	-- lg_setColor(255,255,255,255)
+	-- lg_rectangle("fill",0,0,lg_w,lg_h,12,12)
+	-- spt:draw(lg_w/2,lg_h/2)
+	lg_setLineStyle("smooth")
+	lg_setLineJoin("none")
+	lg_setLineWidth(1)
+
+	local tb,mtb = self:gentb()
+
+	-- DISS_AUTO = false
+	OUTLINE = false
+	FILL = true
+	lg_stencil(function()
+			self:drawt(tb,mtb)
+		end,
+		"replace",1)
+	lg_setStencilTest("greater", 0)
+	lg_setColor(255,255,255,255)
+	spt:draw(lg_w/2,lg_h/2)
+	lg_setStencilTest()
+
+	OUTLINE = true
+	FILL = false	
+	self:drawt(tb,mtb)
 	lg_setColor(255,255,255,255)
 end
 

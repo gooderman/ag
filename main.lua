@@ -162,6 +162,11 @@ function love.load(arg)
 	Gs.registerEvents()
     Gs.switch(sc_game)
     --Gs.switch(sc_xx)
+    love.keyboard.setTextInput(true,50,50,100,30)
+end
+
+function love.textinput(t)
+    print("love.textinput===",t)
 end
 
 function love.update(dt)	
