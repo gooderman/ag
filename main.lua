@@ -216,6 +216,15 @@ function love.draw(dt)
     -- lg_setColor(255,255,0,255)
     lg_print(" FPS: "..tostring(love.timer.getFPS( )), 10, 10)
 end
+function love.focus(p)
+    print("love.focus===",p)
+end
+function love.visible(p)
+    print("love.visible===",p)
+end
+-- function love.textedited(t,s,l)
+--     print("love.textedited===",t,s,l)
+-- end
 
 function love.keypressed(key)
 
