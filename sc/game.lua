@@ -253,12 +253,12 @@ end
 
 local pixelcode = [[
 extern float alpha;
-extern float idx;
+//extern float idx;
 //extern Image img;
 extern vec4 color;
 vec4 effect(vec4 col, Image texture, vec2 texturePos, vec2 screenPos)
 {
-	int i = int(mod(idx,8));
+	//int i = int(mod(idx,8));
     return color*vec4(1.0,1.0,1.0,1.0+alpha);
     //return Texel(img,texturePos+vec2(0.3,0.6));
 }
@@ -288,7 +288,7 @@ function M:drawt(tb,mtb)
 		lg_setShader(shader)
 		for i,v in ipairs(mtb) do
 			shader:send("alpha",i/10)
-			shader:send("idx",IDX+i)
+			--shader:send("idx",IDX+i)
 			local n=1+math.mod(IDX+i,colorn)
 			shader:send("color",colortb[n])
 			if(#v>=6) then
